@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
     <title>Anmeldung</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -12,12 +13,34 @@
         <section id="login">
 
             <div id="image">
-                Foto
+            
             </div>
             <div id="form">
                 <h1>Anmeldung</h1>
                 <p>Wilkommen. Melde dich an, um den Soundtrack deines Lebens zu genießen.</p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
+                    <p>
+                        <label for="iemail">
+                            <span class="material-symbols-outlined">
+                            person
+                            </span>
+                        </label>
+                        <input type="email" name="email" id="iemail" autocomplete="email" required minlength="7" placeholder="Email">
+                    </p>
+                    <p id="pass">
+                        <label for="ipass">
+                            <span class="material-symbols-outlined">
+                                lock
+                                </span>
+                        </label>
+                        <input type="password" name="pass" id="ipass" placeholder="Passwort" autocomplete="current-password" required minlength="8" maxlength="15">
+                    </p>
+                    <p>
+                        <input type="submit" value="Login" id="btn-submit">
+                    </p>
+                    <p>
+                        <input type="btn" value="Passwort vergessen?" id="btn-btn">
+                    </p>
 
                 </form>
             </div>
