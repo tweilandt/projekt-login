@@ -109,6 +109,11 @@ form p label{
     font-size: 1.4em;
 }
 
+#btn-submit:hover, #btn-btn:hover{
+    background-color: var(--farbe5);
+    color: var(--farbe4);
+}
+
 #btn-btn{
     background-color: white;
     color: var(--farbe7);
