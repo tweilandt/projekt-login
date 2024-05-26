@@ -116,6 +116,7 @@ form p label{
     box-sizing: border-box;
     border: 1px solid var(--farbe7);
     font-size: 1.2em;
+    margin-bottom: 20px;
 }
 
 
