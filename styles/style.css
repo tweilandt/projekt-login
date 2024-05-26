@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+:root{
+    --farbe1: rgb(222, 142, 146);
+    --farbe2: rgb(255, 199, 197);
+    --farbe3: rgb(149, 195, 191);
+    --farbe4: rgb(204, 235, 229);
+}
