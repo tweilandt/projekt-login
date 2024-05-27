@@ -61,7 +61,7 @@ div#image{
 
 section#login > div#formulario{
     padding: 10px;
-    display: block;
+    display: inline-block;
 }
 
 main h1{
@@ -113,8 +113,21 @@ label{
     border: none;
 }
 
-#secret{
+.group-secret{
     position: relative;
+    display: inline-block;
+}
+#secret{
+    position: absolute;
+    left: calc(100% - 40px);
+    top: calc(100% - 152px);
+    color: var(--farbe3);
+}
+
+#secret:hover{
+    color: var(--farbe2);
+    background-color: var(--farbe3);
+    border-radius: 50%;
 }
 
 #btn-submit, #btn-btn{

@@ -28,16 +28,14 @@
                         </label>
                         <input type="email" name="email" id="iemail" autocomplete="email" required maxlength="30" placeholder="Email">
                     </div>
-                    <div clas="campo">
-                        <label for="ipass">
-                            <span class="material-symbols-outlined">
-                                lock
-                                </span>
-                        </label>
-                        <input type="password" name="pass" id="ipass" placeholder="Passwort" autocomplete="current-password" required minlength="8" maxlength="15">
-                        <span class="material-symbols-outlined" id="secret" onclick="passSehen()">visibility_off
-                        </span>
-                    </campo>
+                    <div clas="group-secret">
+                            <label for="ipass">
+                                <span class="material-symbols-outlined">
+                                    lock
+                                    </span>
+                            </label>
+                            <input type="password" name="pass" id="ipass" placeholder="Passwort" autocomplete="current-password" required minlength="8" maxlength="15"><span class="material-symbols-outlined" id="secret" onclick="passSehen()">visibility_off</span>
+                    </div>
                     <p>
                         <input type="submit" value="Login" id="btn-submit">
                     </p>
