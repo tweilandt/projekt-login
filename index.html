@@ -20,22 +20,22 @@
                 <h1>Willkommen</h1>
                 <p class="texto">Melde dich an, um den Soundtrack deines Lebens zu genießen.</p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <p>
+                    <div class="campo">
                         <label for="iemail">
                             <span class="material-symbols-outlined">
                             person
                             </span>
                         </label>
                         <input type="email" name="email" id="iemail" autocomplete="email" required minlength="7" placeholder="Email">
-                    </p>
-                    <p id="pass">
+                    </div>
+                    <div clas="campo">
                         <label for="ipass">
                             <span class="material-symbols-outlined">
                                 lock
                                 </span>
                         </label>
                         <input type="password" name="pass" id="ipass" placeholder="Passwort" autocomplete="current-password" required minlength="8" maxlength="15">
-                    </p>
+                    </campo>
                     <p>
                         <input type="submit" value="Login" id="btn-submit">
                     </p>
