@@ -35,6 +35,8 @@
                                 </span>
                         </label>
                         <input type="password" name="pass" id="ipass" placeholder="Passwort" autocomplete="current-password" required minlength="8" maxlength="15">
+                        <span class="material-symbols-outlined" id="secret" onclick="passSehen()">visibility_off
+                        </span>
                     </campo>
                     <p>
                         <input type="submit" value="Login" id="btn-submit">
@@ -49,4 +51,18 @@
         </section>
     </main>
 </body>
+
+<script>
+    function passSehen(){
+        if (secret.innerHTML == 'visibility_off'){
+        ipass.type = 'text'
+        secret.innerHTML = 'visibility'
+    } else if (secret.innerHTML == 'visibility'){
+        ipass.type = 'password'
+        secret.innerHTML = 'visibility_off'
+    }
+    }
+ 
+</script>
+
 </html>

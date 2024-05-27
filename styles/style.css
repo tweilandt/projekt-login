@@ -113,6 +113,10 @@ label{
     border: none;
 }
 
+#secret{
+    position: relative;
+}
+
 #btn-submit, #btn-btn{
     width: 100%;
     height: 40px;
