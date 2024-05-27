@@ -12,7 +12,8 @@
 
 @media screen and (min-width: 768px) {
     body{
-        background-image: linear-gradient(var(--farbe1), var(--farbe3));
+        background-image: linear-gradient(var(--farbe4), var(--farbe5),  rgb(243, 219, 218));
+        background-attachment: fixed;
     }
     
 }
