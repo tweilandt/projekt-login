@@ -42,6 +42,7 @@ section#login{
     background-color: white;
     width: 300px;
     height: 550px;
+    transition: width 1s, height 1s;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.245);
     border-radius: 10px;
@@ -89,8 +90,8 @@ form p label{
 
 
 #iemail, #ipass{
-    width: 251px;
-    height: 35px;
+    width: 89%;
+    height: 5vh;
     border-radius: 6px;
     background-color: var(--farbe6);
     border: 0.5px solid var(--farbe2);

@@ -10,10 +10,97 @@
     --farbe7: rgb(96, 182, 175);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px){
     body{
         background-image: linear-gradient(var(--farbe4), var(--farbe5),  rgb(243, 219, 218));
         background-attachment: fixed;
+    }
+
+    section#login{
+        height: 45vh;
+        width: 80vw;
+        transition: height 1s;
+        transition: width 0.1s;
+    }
+
+    section#login > div#image{
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    
+    section#login > div#formulario{
+        float: right;
+        width: 65%;
+        height: 100%;
+    }
+
+    .texto{
+        width: 90%;
+        margin-left: 0px;
+    }
+
+    #iemail, #ipass{
+        width: 92%;
+    }
+    
+    #ipass{
+        margin-bottom: 0px;
+    }
+
+    #btn-btn, #btn-submit{
+        width: 98%;
+        height: 40px;
+        margin-bottom: 7px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(var(--farbe4), var(--farbe5),  rgb(243, 219, 218));
+        background-attachment: fixed;
+        font-size: 1.2em;
+    }
+
+    .texto{
+        width: 450px;
+    }
+    section#login{
+        height: 350px;
+        width: 950px;
+        transition: height 1s, width 1s;
+    }
+        
+    section#login > div#image{
+        float: right;
+        width: 475px;
+        height: 350px;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 475px;
+        height: 350px;
+    }
+
+    form p label{
+        margin-left: 5px;
+    }
+
+    #iemail, #ipass{
+        width: 420px;
+        height: 40px;
+    }
+
+    #ipass{
+        margin-bottom: 5px;
+    }
+
+    #btn-btn, #btn-submit{
+        width: 450px;
+        height: 40px;
+        margin-left: 5px;
     }
     
 }
