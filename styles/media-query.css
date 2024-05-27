@@ -70,6 +70,7 @@
 
     .texto{
         width: 450px;
+        margin-bottom: 18px;
     }
     section#login{
         height: 340px;
