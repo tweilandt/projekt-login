@@ -12,15 +12,14 @@
 
 @media screen and (min-width: 768px) and (max-width: 991px){
     body{
-        background-image: linear-gradient(var(--farbe4), var(--farbe5),  rgb(243, 219, 218));
+        background-image: linear-gradient(to bottom, var(--farbe4), var(--farbe5),  rgb(243, 219, 218));
         background-attachment: fixed;
     }
 
     section#login{
         height: 45vh;
         width: 80vw;
-        transition: height 1s;
-        transition: width 0.1s;
+
     }
 
     section#login > div#image{
@@ -69,7 +68,6 @@
     section#login{
         height: 350px;
         width: 950px;
-        transition: height 1s, width 1s;
     }
         
     section#login > div#image{
