@@ -74,14 +74,14 @@
         
     section#login > div#image{
         float: right;
-        width: 475px;
-        height: 350px;
+        width: 50%;
+        height:100%;
     }
 
     section#login > div#formulario{
         float: right;
-        width: 475px;
-        height: 350px;
+        width: 50%;
+        height: 100%;
     }
 
     form p label{
@@ -89,7 +89,7 @@
     }
 
     #iemail, #ipass{
-        width: 420px;
+        width: 92%;
         height: 40px;
     }
 
@@ -98,7 +98,7 @@
     }
 
     #btn-btn, #btn-submit{
-        width: 450px;
+        width: 98%;
         height: 40px;
         margin-left: 5px;
     }
