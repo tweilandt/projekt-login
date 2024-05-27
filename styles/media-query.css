@@ -16,6 +16,10 @@
         background-attachment: fixed;
     }
 
+    main h1 {
+        margin: 15px;
+    }
+
     section#login{
         height: 320px;
         width: 80vw;
@@ -37,11 +41,13 @@
 
     .texto{
         width: 90%;
-        margin-left: 0px;
+        margin-left: 3px;
     }
 
     #iemail, #ipass{
         width: 92%;
+        height: 40px;
+
     }
     
     #ipass{
