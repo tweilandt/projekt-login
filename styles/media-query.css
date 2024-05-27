@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+:root{
+    --farbe1: rgb(222, 142, 146);
+    --farbe2: rgb(255, 199, 197);
+    --farbe3: rgb(149, 195, 191);
+    --farbe4: rgb(131, 180, 176);
+    --farbe5: rgb(204, 235, 229);
+    --farbe6: rgba(255, 199, 197, 0.323);
+    --farbe7: rgb(96, 182, 175);
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        background-image: linear-gradient(var(--farbe1), var(--farbe3));
+    }
+    
+}
