@@ -126,6 +126,7 @@ label{
 
 #secret:hover{
     color: rgb(102, 152, 147);
+    cursor: pointer;
     transition: color .3s;
 }
 
