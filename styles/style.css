@@ -125,9 +125,8 @@ label{
 }
 
 #secret:hover{
-    color: var(--farbe2);
-    background-color: var(--farbe3);
-    border-radius: 50%;
+    color: rgb(102, 152, 147);
+    transition: color .3s;
 }
 
 #btn-submit, #btn-btn{
